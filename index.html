@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Android Security Lab</title>
+</head>
+<body>
+    <h1>Android Security Lab</h1>
+
+    <p>Your test phone has opened the webpage.</p>
+
+    <button onclick="showMessage()">
+        Test connection
+    </button>
+
+    <p id="result"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("result").textContent =
+                "The webpage is working!";
+        }
+    </script>
+</body>
+</html>
